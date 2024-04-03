@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background click</title>
+    <style>
+        div{
+            background-color: aquamarine;
+        }
+        h1{
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <div id="MyDiv">
+        <h1 id="myh1">My Other Project</h1>
+        <p id="paragraph">Let's get into these projects</p>
+  </div>
+  <button onclick="changeBackground()">Change Div Color</button>
+  <button onclick="changecolor()">Change h1 Color</button>
+  <button onclick="changefontsize">Change font</button>
+  <script>
+    function changeBackground(){
+        let testDiv = document.getElementById("MyDiv")
+        testDiv.style.backgroundColor = "yellow"
+    }
+    function changecolor(){
+        let testh1 = document.getElementById("myh1")
+        testh1.style.color="blue"
+    }
+    function changefontsize(){
+        let testp = document.getElementById("paragraph")
+        testp.style.fontsize = "40px"
+    }
+  </script>
+    
+</body>
+</html>
