@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+</head>
+<link rel="stylesheet" href="challenge2.css">
+<body id="demo">
+    <button>Yellow</button>
+    <button id="mm">Red</button>
+    
+</body>
+<script>
+    const body = document.getElementById("demo")
+    body.addEventListener("click",() =>{
+        body.style.backgroundColor ="yellow"; 
+
+    },true)
+
+    const button = document.getElementById("mm") 
+    button.addEventListener("click", ()=>{
+        body.style.backgroundColor ="red"
+    },true)
+
+</script>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .t, .t1, .t2, .t3, .t4, .t5 {
+            display:none;
+        }
+ dl {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+dt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+dd {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  color: #666;
+}
+dl {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+}
+dt:hover {
+  color: yellowgreen;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><dl><dt class="v">Medicine</dt><dd class="t">Doctors,Dentists,Nurses.</dd></dl></li>
+        <li><dl><dt class="v1">Engineering</dt><dd class="t1">Software,Civil,Mechanical.</dd></dl></li>
+        <li><dl><dt class="v2">Law</dt><dd class="t2">Family,International,Civil.</dd></dl></li>
+        <li><dl><dt clfdass="v3">Catering</dt><dd class="t3">Chef,Waitress,Cleaner.</dd></dl></li>
+        <li><dl><dt class="v4">Education</dt><dd class="t4">Teacher,Lecturer,Proffesor.</dd></dl></li>
+        <li><dl><dt class="v5">Aviation</dt><dd class="t5">Pilot,Flight attendant,Groundsman.</dd></dl></li>
+    </ul>
+    <script>
+        const item = document.querySelector(".v");
+        const sublist = document.querySelector(".t");
+        item.addEventListener("click", function () {
+            sublist.style.display = "block";
+        });
+        const item2 = document.querySelector(".v1");
+        const sublist2 = document.querySelector(".t1");
+        item2.addEventListener("click", function () {
+            sublist2.style.display = "block";
+        });
+        const item3 = document.querySelector(".v2");
+        const sublist3 = document.querySelector(".t2");
+        item3.addEventListener("click", function () {
+            sublist3.style.display = "block";
+        });
+        const item4 = document.querySelector(".v3");
+        const sublist4 = document.querySelector(".t3");
+        item4.addEventListener("click", function () {
+            sublist4.style.display = "block";
+        });
+        const item5 = document.querySelector(".v4");
+        const sublist5 = document.querySelector(".t4");
+        item5.addEventListener("click", function () {
+            sublist5.style.display = "block";
+        });
+        const item6 = document.querySelector(".v5");
+        const sublist6 = document.querySelector(".t5");
+        item6.addEventListener("click", function () {
+            sublist6.style.display = "block";
+        });
+        </script>
+</body>
+</html>

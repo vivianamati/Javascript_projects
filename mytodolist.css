@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    font-size: 1.5rem;
+}
+
+header,
+form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button{
+    padding: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    border: none;
+    background: white;
+    transition: all 0.3 ease;
+    margin-left: 0.5rem;
+}
+form button:hover{
+    color: bisque;
+    background: black;
+}
+
+.fa-plus-circle{
+    margin-top: 0.3rem;
+    margin-left: -8px;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    min-width: 30px;
+    list-style: none;
+}
+
+.todo{
+    margin: 0.5rem;
+    padding-left: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 2rem;
+}
+
+.todo li{
+    flex: 1;
+}
+
+trash-btn,
+.complete-btn{
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
